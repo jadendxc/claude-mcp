@@ -26,3 +26,11 @@ zip -r ../output.plugin . -x "*.tgz" "node_modules/.package-lock.json"
 ```
 
 然后在 Cowork 侧边栏上传 `.plugin` 文件。
+
+## 关键教训
+
+详见 [Cowork插件开发经验总结](https://github.com/jadendxc/claude-mcp/blob/main/docs/cowork-plugin-dev-notes.md)
+
+- **MCP 启动方式**：Cowork 支持 `npx` 包方式，不支持 `node local-file.js`
+- **环境变量**：不要使用 `${VAR}` 语法，应直接写值或通过插件设置
+- **插件消失**：重新上传即可恢复
