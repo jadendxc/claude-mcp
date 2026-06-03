@@ -1,0 +1,7 @@
+{
+  "name": "github-connector",
+  "version": "0.1.0",
+  "description": "Connect Claude Cowork to GitHub — create issues, review PRs, search code, manage repos",
+  "author": {"name": "Cowork User"},
+  "keywords": ["github", "git", "pr", "issues", "code-review"]
+}
