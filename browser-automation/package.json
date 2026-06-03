@@ -1,0 +1,15 @@
+{
+  "name": "browser-automation-server",
+  "version": "1.0.0",
+  "description": "MCP relay",
+  "main": "mcp-server.js",
+  "bin": {
+    "browser-automation-mcp": "mcp-server.js"
+  },
+  "scripts": {
+    "start": "node mcp-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "browser-automation",
+  "version": "1.0.0",
+  "description": "远程浏览器自动化 — 导航、截图、点击、输入、读取页面、执行 JavaScript、监控网络和控制台",
+  "author": { "name": "Cowork User" },
+  "keywords": ["浏览器", "自动化", "chrome", "截图", "网页"]
+}
